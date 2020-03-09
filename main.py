@@ -50,7 +50,7 @@ def require_jwt(function):
         try:
             jwt.decode(token, JWT_SECRET, algorithms=['HS256'])
         except: # pylint: disable=bare-except
-
+            print("failed")
             abort(401)
 
         return function(*args, **kws)

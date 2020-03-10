@@ -4,6 +4,7 @@
 *.pyc
 *.pyo
 env/
+venv/
 env*
 dist/
 build/
@@ -16,6 +17,7 @@ _mailinglist
 .idea/
 docs/_build/
 __pycache__
+kubectl.exe
 
 # Coverage reports
 htmlcov/
